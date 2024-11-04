@@ -1,0 +1,16 @@
+shared_package.sv
+fifo_seq_item.sv
+fifo_scoreboarde.sv
+fifo_coverage.sv
+fifo_monitor.sv
+reset_sequence.sv
+fifo_main_seq.sv
+fifo_driver.sv
+fifo_sequencer.sv
+fifo_config.sv
+fifo_agent.sv
+fifo_env.sv
+fifo_test.sv
+fifo_interface.sv
++deifne+enable_assertions -work work FIFO_RTL.sv +cover -covercells
+fifo_top.sv
